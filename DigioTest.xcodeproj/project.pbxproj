@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -234,6 +234,7 @@
 				A8CBB7092938DAB00069534D /* Frameworks */,
 				A8CBB70A2938DAB00069534D /* Resources */,
 				5F973F5D1E0F8F8F417F07A7 /* [CP] Embed Pods Frameworks */,
+				A8F8367F29400C32003CE6B3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -408,6 +409,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigioTest-DigioTestUITests/Pods-DigioTest-DigioTestUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		A8F8367F29400C32003CE6B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n\n";
 		};
 		D529991B1B009DD1F9220D66 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
