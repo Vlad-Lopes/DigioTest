@@ -8,7 +8,7 @@ Algumas observações:
 - As telas foram desenvolvidas em ViewCode
 - Usei o Cocoapods para incluir o Alamofire e AlamofireImage, para buscas na internet
 - Não usei um pod para a criação do carossel, usei apenas os recursos do Swift
-- Apenas instalei o SwiftLint, não tenho experiência na configuração
+- Apenas instalei o SwiftLint, não tenho experiência na configuração e pelo que pesquisei parece haver um problema com a minha versão do xCode e o swfitLint na localização do arquivo: libswift_Concurrency.dylib
 - Não inclui a parte de testes por falta de experiência no uso do recurso
 - Realizei testes do código pelo Simulador (iPhone 11 e iPhone 8)
 
